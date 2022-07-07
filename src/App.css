@@ -1,6 +1,7 @@
+body {
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
 .App-header {
-    background-color: skyblue;
-    height: 250px;
     text-align: center;
 }
 .App h1 {

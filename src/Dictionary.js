@@ -24,16 +24,14 @@ export default function Dictionary() {
 
     return(
         <div className='Dictionary'>
-            <div className='row'>
-                <div className= 'col-md-12'>
-                    <form onSubmit={search}>
-                        <input type="search" onChange={handleKeywordChange}/>
-                        <button type="submit">Search</button>
-                   </form>
-                </div>
-                <Results  result= {result}/>
+            <div className='form'>
+                <form onSubmit={search}>
+                    <input type="search" onChange={handleKeywordChange}/>
+                    <button type="submit">Search</button>
+                </form>
             </div>
-                    
+            <Results  result= {result}/>
+            <div className='footer text-center'>Coded by Anuoluwapo Olusanya</div>                
             </div>
             
             

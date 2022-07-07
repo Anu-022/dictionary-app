@@ -1,9 +1,10 @@
 import React from "react";
 import Meaning from "./Meaning";
+import './Results.css'
 export default function Results(props) {
     if (props.result) {
         return (
-            <div>
+            <div className= "Results">
                 <h2>{props.result.word}</h2>
                 { props.result.meanings.map(function (meaning, index) {
                     return (
