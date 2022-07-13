@@ -1,9 +1,18 @@
 .Results {
     margin-top: 50px;
+    padding: 30px 20px;
     background: #fff;
     border-radius: 10px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     opacity: 0.7;
+}
+.Results section {
+    margin: 20px 50px;
+}
+.Results h2 {
+    text-transform: capitalize;
+    padding-top: 10px;
+    font-size: 45px;
 }
