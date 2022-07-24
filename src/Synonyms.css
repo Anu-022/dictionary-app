@@ -1,0 +1,21 @@
+.Synonyms {
+    display: flex;
+}
+.Synonyms ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.Synonyms li {
+    list-style: none;
+    margin-right: 8px;
+    font-weight: 700;
+}
+
+
+@media (max-width:579px) {
+  .Synonyms ul{
+    display: none;
+  }
+}

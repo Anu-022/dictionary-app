@@ -1,9 +1,7 @@
 body {
-    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-}
-.App-header {
-    text-align: center;
+    background: plum;
 }
 .App h1 {
     color: #fff;
+    text-align:center;
 }

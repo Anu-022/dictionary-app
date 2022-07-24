@@ -1,4 +1,18 @@
+.Phonetics {
+    display: flex;
+}
 .Phonetics span {
-    display: inline-block;
     margin: 10px;
+    display: inline-block;
+
+}
+.Phonetics a {
+    border: 1px solid purple;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 5px 10px;   
+}
+.Phonetics a:hover {
+    background: purple;
+    color: #fff;
 }
